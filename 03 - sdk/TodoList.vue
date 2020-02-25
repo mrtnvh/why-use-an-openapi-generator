@@ -1,0 +1,15 @@
+<script>
+import { PetsApiFactory } from "petstore-sdk-ts";
+
+export default {
+  data() {
+    return {
+      todos: () => []
+    };
+  },
+  async mounted() {
+    const { data } = await PetsApiFactory().listPets();
+    this.todos = data;
+  }
+};
+</script>
