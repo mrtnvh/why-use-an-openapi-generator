@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "petstore-sdk-ts": "git+ssh://git@github.com/vanhoofmaarten/petstore-sdk-ts.git#2.0.1",
     "vue": "^2.6.11"
   },
